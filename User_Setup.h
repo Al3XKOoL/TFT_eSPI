@@ -1,5 +1,7 @@
 // user_setup.h for TFT_eSPI with ILI9341 in Parallel mode
 
+#define TFT_BUFFER_SIZE (240 * 320 * 2)  // Ajusta el tamaño del buffer si es necesario
+
 // Uncomment the following line to enable parallel mode for ESP32
 #define ESP32_PARALLEL
 
