@@ -42,7 +42,7 @@
 
 // SD card CS pin (if used)
 //#define SD_CS    6   // Chip select pin for SD card
-#define TOUCH_CS -1
+//#define TOUCH_CS -1
 
 // SPI settings
 //#define SPI_FREQUENCY  40000000   // SPI frequency for display communication
