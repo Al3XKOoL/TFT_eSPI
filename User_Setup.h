@@ -40,13 +40,13 @@
 #define TOUCH_CS -1
 
 // SPI settings
-#define SPI_FREQUENCY  40000000   // SPI frequency for display communication
-#define SPI_READ_FREQUENCY 20000000 // SPI frequency for read operations
+//#define SPI_FREQUENCY  40000000   // SPI frequency for display communication
+//#define SPI_READ_FREQUENCY 20000000 // SPI frequency for read operations
 
 // Touchscreen configuration (if applicable)
-#define TOUCH_DRIVER 0x0ADC // Set to 0 if no touchscreen driver is used
-#define TOUCH_anDC   34     // Analog pin for touchscreen DC
-#define TOUCH_anWR   35     // Analog pin for touchscreen WR
+//#define TOUCH_DRIVER 0x0ADC // Set to 0 if no touchscreen driver is used
+//#define TOUCH_anDC   34     // Analog pin for touchscreen DC
+//#define TOUCH_anWR   35     // Analog pin for touchscreen WR
 
 // Uncomment if you want to enable debugging
 // #define CORE_DEBUG_LEVEL ARDUHAL_LOG_LEVEL_DEBUG
