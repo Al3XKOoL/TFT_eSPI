@@ -7,6 +7,8 @@
 
 // Define the display driver you are using
 #define ILI9341_DRIVER
+
+#define USE_PARALLEL
 #define TFT_PARALLEL_8_BIT
 
 // Define the screen dimensions
