@@ -14,6 +14,7 @@
 #define TFT_BACKLIGHT_ON 0 // 0 means the backlight is ON when pin is HIGH
 #define TFT_BCKL -1        // No configurable backlight pin
 
+
 // Display orientation
 #define TFT_ROTATION 0    // 0 for default rotation, can be adjusted as needed
 
@@ -35,7 +36,8 @@
 #define TFT_D7   17  // Data 7
 
 // SD card CS pin (if used)
-#define SD_CS    6   // Chip select pin for SD card
+//#define SD_CS    6   // Chip select pin for SD card
+#define TOUCH_CS    6
 
 // SPI settings
 #define SPI_FREQUENCY  40000000   // SPI frequency for display communication
