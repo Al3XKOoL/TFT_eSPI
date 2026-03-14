@@ -110,9 +110,10 @@ uint8_t TFT_eSPI::readByte(void)
 #if defined (TFT_PARALLEL_8_BIT)
   RD_L;
   uint32_t reg;           // Read all GPIO pins 0-31
-  reg = gpio_input_get(); // Read three times to allow for bus access time
-  reg = gpio_input_get();
-  reg = gpio_input_get(); // Data should be stable now
+  // CAMBIO PARA ARDUINO 3.0: Usamos GPIO.in en lugar de gpio_input_get()
+  reg = GPIO.in; // Read three times to allow for bus access time
+  reg = GPIO.in;
+  reg = GPIO.in; // Data should be stable now
   RD_H;
 
   // Check GPIO bits used and build value
